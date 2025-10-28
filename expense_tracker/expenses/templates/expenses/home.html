@@ -1,0 +1,8 @@
+{% extends 'expenses/base.html' %}
+{% block content %}
+    <h1>Expense Tracker</h1>
+    <div class="home-links">
+        <a href="{% url 'add_expense' %}">Add Expense</a>
+        <a href="{% url 'expense_list' %}">Expense List</a>    
+    </div>
+{% endblock %}

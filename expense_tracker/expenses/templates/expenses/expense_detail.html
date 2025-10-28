@@ -1,0 +1,14 @@
+{% extends 'expenses/base.html' %}
+{% block content %}
+<h1>Expense Detail</h1>
+    <div class="expense-detail">
+        <ul>
+            <li><strong>Date:</strong> {{ expense.date }}</li>
+            <li><strong>Title:</strong> {{ expense.title }}</li>
+            <li><strong>Category:</strong> {{ expense.category }}</li>
+            <li><strong>Amount:</strong> ${{ expense.amount }}</li>
+            <li><strong>Note:</strong> {{ expense.note }}</li>
+        </ul>
+        <a href="{% url 'expense_list' %}" class="list">Back to List</a>
+    </div>
+{% endblock %}

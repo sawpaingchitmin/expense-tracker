@@ -1,0 +1,14 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.pkl
+
+# 🧪 Virtual environment
+venv/
+
+# Environment variables
+.env
