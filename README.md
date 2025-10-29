@@ -22,11 +22,11 @@ You can record expenses with title, category, amount, date, and notes — all ma
     - Simple and clean design using pure CSS
     - Fully responsive layout
 
-- 🔐 **CSRF Protection**
-    - Secure form submissions
-
 - ⚙️ **Admin Panel**
     - Manage expenses and categories directly from Django admin
+    
+- 🔐 **CSRF Protection**
+    - Secure form submissions
 
 --- 
 
@@ -83,15 +83,6 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-
-### 🔑 Demo Credentials
-- **Admin Login**
-    - **Username:** `admin`  
-    - **Password:** `password`  
-
-> Use the above account to log in as an **Admin** and add categories.
-
----
 
 ## 📂 Project Structure
 ``` bash
